@@ -1,5 +1,4 @@
 
-
 body{
     margin: 0;
     padding: 0;
@@ -8,12 +7,219 @@ body{
     align-items: center;
     justify-content: center;
     background-color: black;
+    flex-direction: column;
+}
+#relieveMando{
+    background: linear-gradient(to bottom, grey, rgb(80, 79, 79));
+    width: 48em;
+    height: 0em;
+    border-right: 1em solid transparent;
+    border-left: 1em solid transparent;
+    border-bottom: 1.5em solid grey;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#circuloCable1{
+    background: linear-gradient(to bottom, rgb(49, 48, 48), rgb(37, 36, 36));
+    width: 3em;
+    height: 1.2em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+#finalcable{
+    /* background-color: aliceblue; */
+    height: 1em;
+    width: 21em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#finalcable2{
+    /* background-color: bisque; */
+    width: 2em;
+    height: 30em;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#divisionfinalcable{
+    background-color: rgb(88, 88, 124);
+    height: 9em;
+    width: 1em;
+}
+#divisionfinalcable2{
+    background-color: rgb(88, 88, 124);
+    height: 3em;
+    width: 1em;
+}
+#inicioCable{
+    background-color: rgb(88, 88, 124);
+    border-radius: 0em 0em 0.3em 0.3em;
+    width: 1em;
+    height: 1em;
+}
+#movcable1{
+    background-color: rgb(88, 88, 124);
+    width: 1em;
+    height: 12em;
+    border-radius: 0.5em 0em 0em 0em;
+}
+#movcable2{
+    /* background-color: brown; */
+    width: 31em;
+    height: 12em;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    flex-direction: column;
+}
+#probando{
+    /* background-color: azure; */
+    width: 20em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#probandosalidacable1{
+    /* background-color: aquamarine; */
+    width: 2em;
+    height: 2em;
+}
+#probandosalidacable2{
+    background-color: rgb(88, 88, 124);
+    width: 1em;
+    height: 2em;
+}
+#probandosalidacable3{
+    /* background-color: blue; */
+    width: 13em;
+    height: 2em;
+}
+#curvacable1{
+    background-color:rgb(88, 88, 124);
+    width: 2em;
+    height: 1em;
+    border-radius: 0em 10em 0em 0em;
+}
+#curvacable2{
+    /* background-color: rgb(25, 143, 143); */
+    width: 6em;
+    height: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+#curvacable22{
+    /* background-color: aquamarine; */
+    width: 3em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#siguiendocurva2{
+    /* background-color: rgb(211, 130, 31); */
+    width: 1em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#siguiendocurva22{
+    /* background-color: rgb(190, 238, 79); */
+    width: 3em;
+    height: 2em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#divisorcurva{
+    background-color: rgb(88, 88, 124);
+    width: 1em;
+    height: 1em;
+}
+#siguiendocurva23{
+    /* background-color: rgb(44, 36, 150); */
+    width: 3em;
+    height: 2em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#divisorcurva2{
+    background-color: rgb(88, 88, 124);
+    width: 1em;
+    height: 1em;
+}
+#siguiendocurva24{
+    /* background-color: rgb(13, 252, 252); */
+    width: 3em;
+    height: 2em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#divisorcurva3{
+    background-color: rgb(88, 88, 124);
+    width: 1em;
+    height: 1em;
+}
+#siguiendocurva25{
+    background-color: rgb(88, 88, 124);
+    width: 3em;
+    height: 2.2em;
+    border-radius: 0em 0em 10em 0em;
+}
+#siguiendocurva3{
+    background-color: rgb(88, 88, 124);
+    width: 5em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 0em 0em 0em 10em;
+}
+#siguiendocurva33{
+    background-color: rgb(88, 88, 124);
+    width: 1em;
+    height: 1em;
+    border-radius: 0em 0em 0em 10em;
+}
+#continuacionCable4{
+    /* background-color: rgb(215, 215, 241); */
+    width: 31em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#continuacionCable2{
+    /* background-color: rgb(214, 208, 199); */
+    width: 31em;
+    height: 2em;
+}
+#continuacionCable3{
+    background-color: rgb(88, 88, 124);
+    width: 1em;
+    height: 2em;
+}
+#circuloCable2{
+    /* background-color: beige; */
+    width: 30em;
+    height: 2em;
 }
 #general{
     height: 20em;
     width: 50em;
     background: linear-gradient(to bottom, rgb(213, 209, 209), rgb(172, 172, 172));
-    -webkit-box-shadow: 0.1em 0em 1em 1em rgb(243, 235, 235);
+    -webkit-box-shadow: 0.3em 0em 1em 0em rgb(243, 235, 235);
     display: flex;
     align-items:flex-end;
     justify-content: center;
@@ -445,3 +651,4 @@ body{
     width: 5em;
     height: 8em;
 }
+
