@@ -651,4 +651,28 @@ body{
     width: 5em;
     height: 8em;
 }
+#rnintendo1{
+    /*background-color: antiquewhite;*/
+    width: 0.6em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#r1{
+    /*background-color: rgb(203, 149, 68);*/
+    width: 1em;
+    height: 0.5em;
+    border-radius: 50%;
+    border: 0.05em solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#r12{
+    color:red;
+    font-size: 0.35em;
+}
+
+
 
